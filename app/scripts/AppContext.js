@@ -5,9 +5,12 @@ module.exports = Backbone.Geppetto.Context.extend( {
         log('#initialize');
         this.wireCommands( {
             'app:bootstrap:requested' : [
+                require( './controllers/BootstrapI18N' ),
                 require( './controllers/BootstrapDomain' ),
-                require( './controllers/BootstrapUI' ),
                 require( './controllers/StartRouter')
+            ],
+            'SetupI18N:execution:completed': [
+                require( './controllers/BootstrapUI' )
             ]
         } );
     },
@@ -15,9 +18,5 @@ module.exports = Backbone.Geppetto.Context.extend( {
     start : function(){
         log('#start');
         this.dispatch( 'app:bootstrap:requested' );
-        
-        var factory = this.getObject('AppView');
-        var view = factory();
-        view.render();
     }
 } );

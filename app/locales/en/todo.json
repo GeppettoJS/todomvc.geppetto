@@ -1,0 +1,25 @@
+{
+    "header":{
+        "title": "todos",
+        "description": "What needs to be done?"
+    },
+    "filters" : {
+        "all" : {
+            "label" : "All"
+        },
+        "active" : {
+            "label" : "Active"
+        },
+        "completed" : {
+            "label" : "Completed"
+        }
+    },
+    "footer": {
+        "active" : "<strong>__count__</strong> item left",
+        "active_plural" : "<strong>__count__</strong> items left",
+        "clearCompleted": "Clear completed (__completedCount__)"
+    },
+    "todoList":{
+        "markAllComplete": "Mark all as complete"
+    }
+}

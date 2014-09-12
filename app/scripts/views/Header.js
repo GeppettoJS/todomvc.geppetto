@@ -3,6 +3,7 @@
 // Layout Header View
 // ------------------
 var tpl = require('./templates/Header.hbs');
+
 module.exports = Backbone.Marionette.ItemView.extend( {
     template : tpl,
 

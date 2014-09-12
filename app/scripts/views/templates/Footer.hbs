@@ -1,7 +1,5 @@
-<span id="todo-count">
-		<strong>{{ activeCount }}</strong> {{ activeCountLabel }}
-</span>
+<span id="todo-count">{{t "todo:footer.active" count=activeCount }}</span>
 <ul id="filters"></ul>
 <button id="clear-completed" {{#unless completedCount }}class="hidden"{{/unless}}>
-    Clear completed ({{ completedCount }})
+    {{t "todo:footer.clearCompleted"}}
 </button>

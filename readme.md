@@ -8,10 +8,10 @@
 * The [Backbone][backbone]/[Marionette][marionette]/[Geppetto][geppetto] triumvirate as an application framework.
 * [Browserify][browserify] for bundling CommonJS modules
 * Templating with [Handlebars][handlebars] and [hbsfy][hbsfy]
+* Localization with [i18next][i18next]
 
 ## Coming soon
 
-* Localization with [i18next][i18next]
 * REST backend in [restify][restify] with [MongoDB][mongodb]
 
 
