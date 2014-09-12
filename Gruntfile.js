@@ -61,6 +61,11 @@ module.exports = function( grunt ){
         'usemin',
         'htmlmin'
     ] );
+    
+    grunt.registerTask( 'publish', [
+        'default',
+        'gh-pages'
+    ]);
 
     grunt.registerTask( 'default', [
         'newer:jshint',
