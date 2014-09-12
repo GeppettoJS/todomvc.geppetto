@@ -1,5 +1,4 @@
 'use strict';
-var log = _.partial(require('bows')('views'), 'Header');
 
 // Layout Header View
 // ------------------

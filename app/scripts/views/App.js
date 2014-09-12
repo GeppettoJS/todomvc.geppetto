@@ -1,5 +1,4 @@
 'use strict';
-var log = _.partial(require('bows')('views'), "App");
 var tpl = require( './templates/App.hbs' );
 module.exports = Marionette.LayoutView.extend( {
     el       : '#todoapp',
@@ -22,7 +21,6 @@ module.exports = Marionette.LayoutView.extend( {
     },
     
     onRender : function(){
-        console.log('AppView#onRender');
         this.header.show( this.createHeaderView() );
         this.main.show( this.createTodoListView() );
         this.footer.show( this.createFooterView() );

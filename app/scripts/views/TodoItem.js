@@ -4,7 +4,6 @@
 //
 // Display an individual todo item, and respond to changes
 // that are made to the item, including marking completed.
-var log = _.partial(require('bows')('views'), 'TodoItem');
 var tpl = require('./templates/TodoItem.hbs');
 module.exports = Marionette.ItemView.extend( {
     tagName  : 'li',

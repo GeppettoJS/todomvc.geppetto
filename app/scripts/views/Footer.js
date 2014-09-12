@@ -1,5 +1,4 @@
 'use strict';
-var log = _.partial(require('bows')('views'), 'Footer');
 // Layout Footer View
 // ------------------
 var tpl = require('./templates/Footer.hbs');
@@ -36,9 +35,6 @@ module.exports = Backbone.Marionette.LayoutView.extend( {
     },
 
     onRender : function(){
-        //todo: this definitely needs to go
-        //this.$el.parent().toggle( this.collection.length > 0 );
-        
         this.filters.show(this.createFiltersView());
     },
 
