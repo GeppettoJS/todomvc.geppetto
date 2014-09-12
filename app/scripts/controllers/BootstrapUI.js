@@ -1,5 +1,5 @@
 'use strict';
-var log = _.partial(require('bows')('controllers'), "BootstrapUI");
+var log = _.partial(require('bows')('controllers'), 'BootstrapUI');
 module.exports = function( context ){
     log('#execute');
     context.wireView( 'HeaderView', require( '../views/Header' ), {

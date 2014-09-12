@@ -1,6 +1,6 @@
 'use strict';
 
-var log = _.partial(require('bows')('controllers'), "StartRouter");
+var log = _.partial(require('bows')('controllers'), 'StartRouter');
 var FilterRouter = require( '../routers/Filter' );
 
 module.exports = function(){

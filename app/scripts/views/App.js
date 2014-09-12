@@ -13,7 +13,7 @@ module.exports = Marionette.LayoutView.extend( {
         footer: '#footer'
     },
     collectionEvents : {
-        "all" : "toggleViews"
+        'all' : 'toggleViews'
     },
     
     initialize : function(){

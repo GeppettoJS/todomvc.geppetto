@@ -9,7 +9,7 @@ module.exports = Marionette.AppRouter.extend( {
     appRoutes   : {
         '*filter' : 'filterItems'
     },
-    initialize: function(opts){
+    initialize: function(){
         log('#initialize');
     }
 } );

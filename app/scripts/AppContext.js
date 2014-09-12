@@ -1,8 +1,8 @@
 'use strict';
-var log = _.partial(require('bows')('app'), "AppContext");
+var log = _.partial(require('bows')('app'), 'AppContext');
 module.exports = Backbone.Geppetto.Context.extend( {
     initialize : function(){
-        log('#initialize')
+        log('#initialize');
         this.wireCommands( {
             'app:bootstrap:requested' : [
                 require( './controllers/BootstrapDomain' ),
