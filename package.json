@@ -1,6 +1,6 @@
 {
   "name": "todomvc-backbone-geppetto",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Todo app for Backbone.Geppetto",
   "main": "index.js",
   "scripts": {
