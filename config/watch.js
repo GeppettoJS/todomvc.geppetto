@@ -1,7 +1,7 @@
 module.exports = {
     bower      : {
         files : ['bower.json'],
-        tasks : ['bowerInstall']
+        tasks : ['wiredep']
     },
     js         : {
         files   : ['<%= config.app %>/scripts/**/*.js'],
