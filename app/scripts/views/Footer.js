@@ -16,7 +16,6 @@ module.exports = Backbone.Marionette.LayoutView.extend( {
         'all' : 'render'
     },
     
-    //todo: how is this with Handlebars?
     templateHelpers : {
         activeCountLabel : function(){
             return (this.activeCount === 1 ? 'item' : 'items') + ' left';
