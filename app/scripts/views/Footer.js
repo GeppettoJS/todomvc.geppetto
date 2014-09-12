@@ -2,6 +2,7 @@
 // Layout Footer View
 // ------------------
 var tpl = require('./templates/Footer.hbs');
+
 module.exports = Backbone.Marionette.LayoutView.extend( {
     template : tpl,
     regions : {
@@ -16,16 +17,9 @@ module.exports = Backbone.Marionette.LayoutView.extend( {
         'all' : 'render'
     },
     
-    templateHelpers : {
-        activeCountLabel : function(){
-            return (this.activeCount === 1 ? 'item' : 'items') + ' left';
-        }
-    },
-
     serializeData : function(){
         var active = this.collection.getActive().length;
         var total = this.collection.length;
-
         return {
             activeCount    : active,
             totalCount     : total,

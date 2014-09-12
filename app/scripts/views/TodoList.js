@@ -6,6 +6,7 @@
 // Controls the rendering of the list of items, including the
 // filtering of activs vs completed items for display.
 var tpl = require('./templates/TodoList.hbs');
+
 module.exports = Backbone.Marionette.CompositeView.extend( {
     template           : tpl,
     childViewContainer : '#todo-list',

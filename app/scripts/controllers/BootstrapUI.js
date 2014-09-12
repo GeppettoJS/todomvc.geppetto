@@ -24,4 +24,9 @@ module.exports = function( context ){
         createTodoListView : 'TodoListView',
         collection : 'todoList'
     } );
+    
+        
+    var factory = context.getObject('AppView');
+    var view = factory();
+    view.render();
 };
