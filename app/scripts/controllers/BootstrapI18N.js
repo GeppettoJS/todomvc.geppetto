@@ -4,7 +4,7 @@ var Handlebars = require('hbsfy/runtime');
 module.exports = function(context){
     log('#execute');
     
-    function translate( i18n_key,
+    function translate( i18nKey,
                         options ){
         var context = options.data.root;
         var opts = (context)
@@ -14,14 +14,14 @@ module.exports = function(context){
             opts.defaultValue = options.fn( context );
         }
 
-        var result = i18n.t( i18n_key, opts );
+        var result = i18n.t( i18nKey, opts );
         return new Handlebars.SafeString( result );
     }
 
     Handlebars.registerHelper( 't', translate );
     
     $.i18n.init( {
-        lng : "en",
+        lng : 'en',
         fallbackLng: false,
         ns  : {
             namespaces : [
@@ -30,7 +30,7 @@ module.exports = function(context){
             ],
             defaultNs  : 'common'
         }
-    }, function( t ){
+    }, function(){
         context.dispatch( 'SetupI18N:execution:completed' );
     } );
     

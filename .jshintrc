@@ -18,10 +18,12 @@
     "trailing": true,
     "smarttabs": true,
     "jquery": true,
+    "laxbreak":true,
     "predef" : [
         "Backbone",
         "Modernizr",
         "Marionette",
-        "_"
+        "_",
+        "i18n"
     ]
 }
