@@ -1,0 +1,46 @@
+"backbone.geppetto": {
+	"name": "Backbone.Geppetto",
+	"description": "Geppetto helps large-scale, multi-module Backbone (and Marionette) applications to decouple their components",
+	"homepage": "http://modeln.github.io/backbone.geppetto/",
+	"examples": [{
+		"name": "Example",
+		"url": "https://github.com/creynders/todomvc-geppetto"
+	}],
+	"link_groups": [{
+		"heading": "Official Resources",
+		"links": [{
+			"name": "API Reference",
+			"url": "https://github.com/marionettejs/backbone.marionette/tree/master/docs"
+		}, {
+			"name": "Applications built with Backbone.Marionette",
+			"url": "https://github.com/marionettejs/backbone.marionette/wiki/Projects-and-websites-using-marionette"
+		}, {
+			"name": "Introduction to Composite JavaScript Apps",
+			"url": "https://github.com/marionettejs/backbone.marionette/wiki/Introduction-to-composite-javascript-apps"
+		}, {
+			"name": "FAQ",
+			"url": "https://github.com/marionettejs/backbone.marionette/wiki#frequently-asked-questions"
+		}, {
+			"name": "Backbone.Marionette on GitHub",
+			"url": "https://github.com/marionettejs/backbone.marionette"
+		}]
+	}, {
+		"heading": "Articles and Guides",
+		"links": [{
+			"name": "A Thorough Introduction to Backbone.Marionette",
+			"url": "http://coding.smashingmagazine.com/2013/02/11/introduction-backbone-marionette"
+		}, {
+			"name": "Backbone Marionette: Better Backbone Apps",
+			"url": "http://www.joezimjs.com/javascript/backbone-marionette-better-backbone-apps"
+		}]
+	}, {
+		"heading": "Community",
+		"links": [{
+			"name": "Backbone.Marionette on StackOverflow",
+			"url": "http://stackoverflow.com/questions/tagged/backbone.marionette"
+		}, {
+			"name": "Backbone.Marionette on Twitter",
+			"url": "http://twitter.com/marionettejs"
+		}]
+	}]
+},
