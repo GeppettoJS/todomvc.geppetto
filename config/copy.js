@@ -10,6 +10,7 @@ module.exports = {
         'images/{,*/}*.webp',
         '{,*/}*.html',
         'styles/fonts/{,*/}*.*',
+        'learn.json',
         'locales/**/*.json'
       ]
     }, {
