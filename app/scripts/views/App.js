@@ -6,11 +6,11 @@ module.exports = Marionette.LayoutView.extend( {
     regions  : {
         header : '#header',
         main   : '#main',
-        footer : '#footer'
+        toolbar : '#footer'
     },
     ui : {
         main : '#main',
-        footer: '#footer'
+        toolbar: '#footer'
     },
     collectionEvents : {
         'all' : 'toggleViews'
@@ -23,12 +23,12 @@ module.exports = Marionette.LayoutView.extend( {
     onRender : function(){
         this.header.show( this.createHeaderView() );
         this.main.show( this.createTodoListView() );
-        this.footer.show( this.createFooterView() );
+        this.toolbar.show( this.createToolbarView() );
         this.toggleViews();
     },
     toggleViews : function(){
         var show = this.collection.length > 0;
         this.ui.main.toggle(show);
-        this.ui.footer.toggle(show);
+        this.ui.toolbar.toggle(show);
     }
 } );

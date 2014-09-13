@@ -1,7 +1,7 @@
 'use strict';
 // Layout Footer View
 // ------------------
-var tpl = require('./templates/Footer.hbs');
+var tpl = require('./templates/Toolbar.hbs');
 
 module.exports = Backbone.Marionette.LayoutView.extend( {
     template : tpl,
