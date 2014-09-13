@@ -1,25 +1,35 @@
 {
-    "header":{
-        "title": "todos",
-        "description": "What needs to be done?"
+    "header"   : {
+        "title"       : "todos",
+        "description" : "What needs to be done?"
     },
-    "filters" : {
-        "all" : {
+    "filters"  : {
+        "all"       : {
             "label" : "All"
         },
-        "active" : {
+        "active"    : {
             "label" : "Active"
         },
         "completed" : {
             "label" : "Completed"
         }
     },
-    "footer": {
-        "active" : "<strong>__count__</strong> item left",
-        "active_plural" : "<strong>__count__</strong> items left",
-        "clearCompleted": "Clear completed (__completedCount__)"
+    "toolbar"  : {
+        "active"         : "<strong>__count__</strong> item left",
+        "active_plural"  : "<strong>__count__</strong> items left",
+        "clearCompleted" : "Clear completed (__completedCount__)"
     },
-    "todoList":{
-        "markAllComplete": "Mark all as complete"
+    "todoList" : {
+        "markAllComplete" : "Mark all as complete"
+    },
+    "info"     : {
+        "description" : "Double-click to edit a todo",
+        "credits"     : [
+            "Created by <a href=\"http://github.com/creynders\">Camille Reynders</a>",
+            "using <a href=\"http://geppettojs.github.com/backbone.geppetto/\">Backbone.Geppetto</a><br/>",
+            "based on <a href=\"http://todomvc.com/labs/architecture-examples/backbone_marionette/\">Marionette  • TodoMVC</a>",
+            "by <a href=\"http://github.com/jsoverson\">Jarrod Overson</a>",
+            "and <a href=\"http://github.com/derickbailey\">Derick Bailey</a>"
+        ]
     }
 }
