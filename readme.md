@@ -1,4 +1,4 @@
-# Backbone.Geppetto TodoMVC Example
+# Backbone.Geppetto Extended TodoMVC Example
 
 (Based on the [Marionette • TodoMVC][marionette.todomvc] example)
 
@@ -19,7 +19,7 @@
 [grunt]: http://gruntjs.com/
 [backbone]: http://backbonejs.org/
 [marionette]: http://marionettejs.com/
-[geppetto]: http://modeln.github.com/backbone.geppetto/
+[geppetto]: http://geppettojs.github.com/backbone.geppetto/
 [browserify]: http://browserify.org/
 [handlebars]: http://handlebarsjs.com/
 [hbsfy]: https://github.com/epeli/node-hbsfy
