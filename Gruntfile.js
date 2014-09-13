@@ -17,7 +17,8 @@ module.exports = function( grunt ){
 
     // Load grunt tasks automatically
     require( 'jit-grunt' )( grunt, {
-        useminPrepare : 'grunt-usemin'
+        useminPrepare : 'grunt-usemin',
+        'gh-pages-clean' : 'grunt-gh-pages'
     } );
 
     // Configurable paths
