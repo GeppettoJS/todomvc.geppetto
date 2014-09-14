@@ -8,9 +8,11 @@
     "backbone.marionette": "~2.1.0",
     "modernizr": "~2.8.3",
     "handlebars": "~2.0.0",
-    "i18next": "~1.7.4"
+    "i18next": "~1.7.4",
+    "backbone.geppetto": "~0.7.1"
   },
   "resolutions": {
-    "underscore": ">=1.5.0"
+    "underscore": ">=1.5.0",
+    "backbone": "1.0.0 - 1.1.2"
   }
 }
