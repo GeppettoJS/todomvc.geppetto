@@ -12,7 +12,7 @@ function reduceCompleted( left,
 module.exports = Backbone.Collection.extend( {
     model : Todo,
 
-    localStorage : new Backbone.LocalStorage( 'todos-backbone-marionette' ),
+    localStorage : new Backbone.LocalStorage( 'todos-backbone-geppetto' ),
     
     initialize : function(){
         log('#initialize');
